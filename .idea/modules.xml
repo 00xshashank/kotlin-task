@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kotlin-task.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kotlin-task.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kotlin-task.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kotlin-task.app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/kotlin-task.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/kotlin-task.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/kotlin-task.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/kotlin-task.buildSrc.test.iml" />
+    </modules>
+  </component>
+</project>
