@@ -118,13 +118,6 @@ open class KotlinSourcesListTask: DefaultTask() {
 
 class KotlinPlugin: Plugin<Project> {
     override fun apply(target: Project) {
-        val KotlinPluginIds = listOf(
-            "org.jetbrains.kotlin.jvm",
-            "org.jetbrains.kotlin.multiplatform",
-            "org.jetbrains.kotlin.android",
-            "org.jetbrains.kotlin.js"
-        )
-
         target.tasks.register("listKotlinSourceSets", KotlinSourcesListTask::class.java) {
             group = "Reporting"
             description = "Outputs a list of all Kotlin source sets to a file"
